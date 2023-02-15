@@ -1,4 +1,4 @@
-# Telegram Bot for WLED Backlight Control
+# Telegram Bot for [WLED](https://github.com/Aircoookie/WLED) Backlight Control
 This Telegram bot allows you to control the backlight of your WLED lighting system using Telegram. You can change the brightness, presets, and other settings directly from the Telegram app.
 ## Getting Started
 1.	Clone or download this repository.
