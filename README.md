@@ -33,5 +33,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## Todo
 - [ ] Improve code readability
 - [ ] Add the ability to change the color
+- [ ] Segments control
 ## License
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
