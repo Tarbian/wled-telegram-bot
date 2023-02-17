@@ -79,8 +79,7 @@ def set_presets(message):
         bot.reply_to(message, "Something wrong! Write a natural number between 0 and 255")
 
 def get_wled_response(action):
-    root = ElementTree(fromstring(get(wled_url + action, timeout=10,
-        verify=False).content)).getroot()
+    get(wled_url + action, timeout=10, verify=False)
     return get_info()
 
 def format_message_response(response, task):
