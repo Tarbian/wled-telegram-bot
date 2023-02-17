@@ -27,7 +27,25 @@ This Telegram bot allows you to control the backlight of your WLED lighting syst
 python bot.py
 ```
 ## Usage
-Once the bot is running, you can interact with it from Telegram using keybord. for detailed information send `/help` to the bot.
+When the bot is running you can interact with it using the keyboard to see this information send `/help` to the bot.
+```
+/start - Starts bot & keyboard
+/correct_ip - To correct ip of WLED
+/status - Get some info from WLED
+/correct_presets - Set the number of presets
+/help - Show this message
+
+◀ - Set previous preset
+⚪ - Set white preset
+▶ - Set next preset
+◐ - Toggle switch on/off
+🌓 - Enter in brightness change mode
+🔅 - Reduce brightness by 30
+🔆 - Increase brightness by 30
+✍ - Enter brightness manually
+☀ - Set maximum brightness
+← - Back to main control pannel
+```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 ## Todo
