@@ -5,24 +5,28 @@ This Telegram bot allows you to control the backlight of your WLED lighting syst
    ```sh
    git clone https://github.com/Tarbian/wled-telegram-bot
    ```
-2.	Set up your WLED device and put the IP address in `config.py` (can be changed latter)
+ 2. Install telebot
+   ```sh
+   pip install pyTelegramBotAPI
+   ```
+3.	Set up your WLED device and put the IP address in `config.py` (can be changed latter)
    ```py
    wled_ip = "YOUR IP HERE" # 192.168.1.111
    ```
-3.	Get the API token in [@BotFather](https://t.me/BotFather) and put in `config.py`
+4.	Get the API token in [@BotFather](https://t.me/BotFather) and put in `config.py`
    ```py
    bot_token = "YOUR TOKEN HERE" # XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXX
    ```
-4.	Add your ID and the ID of the people allowed to use the bot to `config.py` (can get be obtained from [THIS](https://t.me/getmyid_bot) bot)
+5.	Add your ID and the ID of the people allowed to use the bot to `config.py` (can get be obtained from [THIS](https://t.me/getmyid_bot) bot)
    ```py
    white_list = [111111111, 222222222, ] # list of id`s who can control the bot
    ```
-5.	Enter the id of the all-white preset and the total number of presets (can be changed latter) in `config.py`
+6.	Enter the id of the all-white preset and the total number of presets (can be changed latter) in `config.py`
    ```py
    white_id = "1"   # id of full white preset
    presets  = "10"  # number of presets
    ```
-6.	Run the bot: 
+7.	Run the bot: 
 ```sh
 python bot.py
 ```
